@@ -2,96 +2,96 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export default function LocationSection() {
   return (
-    <section className="py-16 md:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-5">
+    <section className="py-12 md:py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
-        <div className="text-center mb-12">
-          <span className="text-yellow-500 uppercase tracking-[3px] font-semibold text-sm">
+        {/* Header - Chhota */}
+        <div className="text-center mb-8 md:mb-10">
+          <span className="text-yellow-500 uppercase tracking-[2px] font-semibold text-xs">
             Our Office
           </span>
-
-          <h2 className="text-3xl md:text-5xl font-bold text-[#0F2F56] mt-3">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#0F2F56] mt-2">
             Visit Our Office
           </h2>
-
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Feel free to visit our office or contact us anytime. Our team is
-            always ready to assist you with your relocation needs.
+          <p className="text-gray-600 mt-2 max-w-xl mx-auto text-sm">
+            Feel free to visit our office or contact us anytime.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-10 items-center">
+        {/* Grid - Chhota Gap */}
+        <div className="grid lg:grid-cols-2 gap-6 items-stretch">
 
-          {/* Office Details */}
+          {/* Office Details - Chhota Box */}
+          <div className="bg-gray-50 rounded-2xl p-5 md:p-6 shadow-md h-full flex flex-col justify-center">
 
-          <div className="bg-gray-50 rounded-3xl p-8 shadow-lg">
-
-            <div className="flex items-start gap-4 mb-8">
-              <MapPin className="text-yellow-500 mt-1" size={28} />
+            {/* Address */}
+            <div className="flex items-start gap-3 mb-4">
+              <MapPin className="text-yellow-500 mt-0.5 flex-shrink-0" size={18} />
               <div>
-                <h3 className="font-bold text-xl text-[#0F2F56]">
+                <h3 className="font-semibold text-sm text-[#0F2F56]">
                   Office Address
                 </h3>
-
-                <p className="text-gray-600 mt-2">
-                 Plot Number 353 Basement, Niti Khand 1,Opposite Cambridge Schools Indirapuram, Ghaziabad, Uttar Pradesh 201014
+                <p className="text-gray-600 text-sm leading-relaxed mt-0.5">
+                  Plot 353 Basement, Niti Khand 1,
+                  <br />
+                  Opposite Cambridge Schools,
+                  <br />
+                  Indirapuram, Ghaziabad, UP 201014
                 </p>
               </div>
             </div>
 
-            <div className="flex items-center gap-4 mb-8">
-              <Phone className="text-yellow-500" size={24} />
+            {/* Phone */}
+            <div className="flex items-center gap-3 mb-3">
+              <Phone className="text-yellow-500 flex-shrink-0" size={16} />
               <div>
-                <h3 className="font-bold text-[#0F2F56]">
+                <h3 className="font-semibold text-sm text-[#0F2F56]">
                   Phone
                 </h3>
-
                 <a
                   href="tel:+918448448603"
-                  className="text-gray-600 hover:text-[#0F2F56]"
+                  className="text-gray-600 hover:text-[#0F2F56] text-sm"
                 >
                   +91 84484 48603
                 </a>
               </div>
             </div>
 
-            <div className="flex items-center gap-4 mb-8">
-              <Mail className="text-yellow-500" size={24} />
+            {/* Email */}
+            <div className="flex items-center gap-3 mb-3">
+              <Mail className="text-yellow-500 flex-shrink-0" size={16} />
               <div>
-                <h3 className="font-bold text-[#0F2F56]">
+                <h3 className="font-semibold text-sm text-[#0F2F56]">
                   Email
                 </h3>
-
                 <a
                   href="mailto:info@agrawalpackers.com"
-                  className="text-gray-600 hover:text-[#0F2F56]"
+                  className="text-gray-600 hover:text-[#0F2F56] text-sm break-all"
                 >
                   agarwalpackersindirapuram@gmail.com
                 </a>
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              <Clock className="text-yellow-500" size={24} />
+            {/* Hours */}
+            <div className="flex items-center gap-3">
+              <Clock className="text-yellow-500 flex-shrink-0" size={16} />
               <div>
-                <h3 className="font-bold text-[#0F2F56]">
+                <h3 className="font-semibold text-sm text-[#0F2F56]">
                   Working Hours
                 </h3>
-
-                <p className="text-gray-600">
-                  Mon - Sun : 24 × 7 Available
+                <p className="text-gray-600 text-sm">
+                  Mon - Sun : 24 × 7
                 </p>
               </div>
             </div>
 
           </div>
 
-          {/* Google Map */}
-
-          <div className="rounded-3xl overflow-hidden shadow-xl h-[450px]">
-
+          {/* Google Map - Chhota */}
+          <div className="rounded-2xl overflow-hidden shadow-md h-[260px] md:h-[300px]">
             <iframe
-              title="Google Map"
+              title="Google Map - Agrawal Packers & Movers"
               src="https://www.google.com/maps?q=Cambridge+School+Indirapuram+Ghaziabad&output=embed"
               width="100%"
               height="100%"
@@ -99,7 +99,6 @@ export default function LocationSection() {
               allowFullScreen
               className="border-0"
             ></iframe>
-
           </div>
 
         </div>
