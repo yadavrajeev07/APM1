@@ -1,4 +1,4 @@
-import Topbar from "./components/layout/Topbar";
+import Topbar from "./components/Topbar";
 import Footer from "./components/layout/Footer";
 import AppRoutes from "./routes/AppRoutes";
 import WhatsAppButton from "./components/WhatsAppButton";
