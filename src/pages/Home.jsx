@@ -1,3 +1,4 @@
+// Home.jsx
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/home/Hero";
 import ServiceStrip from "../components/home/ServicesSection";
@@ -14,7 +15,8 @@ import LocationSection from "../components/about/LocationSection";
 
 export default function Home() {
   return (
-    <>
+    // 🔥 ये wrapper add करें
+    <div className="w-full max-w-full overflow-x-hidden">
       <Hero />
       <ServiceStrip />
       <AboutSection/>
@@ -27,6 +29,6 @@ export default function Home() {
       <CallToAction/>
       <ContactSection/>
       <LocationSection/>
-    </>
+    </div>
   );
 }
