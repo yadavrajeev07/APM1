@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
-import heroImage from "../../assets/images/about.jpeg";
+import AboutImage from "../../assets/images/about.jpg";
 
 export default function AboutHero() {
   return (
@@ -8,7 +8,7 @@ export default function AboutHero() {
 
       {/* Background */}
       <img
-        src={heroImage}
+        src={AboutImage}
         alt="About Agrawal Packers & Movers"
         className="absolute inset-0 w-full h-full object-cover"
       />

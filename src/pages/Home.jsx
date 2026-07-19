@@ -1,4 +1,3 @@
-import Topbar from "../components/layout/Topbar";
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/home/Hero";
 import ServiceStrip from "../components/home/ServicesSection";

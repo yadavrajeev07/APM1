@@ -1,6 +1,6 @@
 import { CheckCircle, Award, Users } from "lucide-react";
 import { motion } from "framer-motion";
-import aboutImage from "../../assets/images/WhatsApp Image 2026-07-16 at 8.00.11 PM (2).jpeg";
+import posterImage from "../../assets/images/poster2.jpg";
 
 const features = [
   "100% Safe & Secure Packing",
@@ -28,7 +28,7 @@ export default function AboutSection() {
           >
 
             <img
-              src={aboutImage}
+              src={posterImage}
               alt="Agrawal Packers Movers"
               className="rounded-3xl shadow-2xl w-full object-cover"
             />
