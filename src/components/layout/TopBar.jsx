@@ -5,7 +5,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
-export default function TopBar() {
+export default function Topbar() {
   return (
     <div className="hidden lg:block bg-[#0B2342] text-white text-[13px] border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 lg:px-8 h-11 flex items-center justify-between">
