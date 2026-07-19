@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "mkdir -p src/components/layout && echo 'export default function Topbar() { return <header>Topbar</header>; }' > src/components/layout/Topbar.jsx",
+    "prebuild": "mkdir -p src/components/layout && echo 'export default function Topbar() { return <header>Topbar</header>; }' > src/components/layout/Topbar.jsx && mkdir -p public/images && echo 'Placeholder image' > public/images/work.webp",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
