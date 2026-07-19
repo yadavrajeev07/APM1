@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, PhoneCall } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-import heroImage from "../../assets/images/hero-truck.png";
+import heroImage from "../../assets/images/hero-truck.jpeg";
 
 export default function Hero() {
   return (

@@ -1,5 +1,5 @@
 import { CheckCircle } from "lucide-react";
-import work from "../../assets/images/work.png";
+import work from "../../assets/images/work.jpeg";
 
 const features = [
   "Professional Packing Team",

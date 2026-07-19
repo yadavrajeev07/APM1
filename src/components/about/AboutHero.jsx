@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
-import heroImage from "../../assets/images/about.png";
+import heroImage from "../../assets/images/about.jpeg";
 
 export default function AboutHero() {
   return (
