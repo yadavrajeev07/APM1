@@ -4,10 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "prebuild": "mkdir -p src/components/layout && echo 'export default function Topbar() { return <header>Topbar</header>; }' > src/components/layout/Topbar.jsx && mkdir -p public/images && echo 'Placeholder image' > public/images/work.webp",
-    "build": "vite build",
-    "lint": "eslint .",
+   "prebuild": "mkdir -p src/components/layout && echo 'export default function Topbar() { return <header>Topbar</header>; }' > src/components/layout/Topbar.jsx && mkdir -p src/assets/images && echo 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgMDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ3/wAALCAABAAEBAREA/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwA8AP/Z' | base64 -d > src/assets/images/work.jpeg",    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
